@@ -1,0 +1,10 @@
+services:
+  dhamma-auto:
+    build: .
+    container_name: dhamma-auto
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/app/workspace
+      - ./config:/app/config
