@@ -1,0 +1,9 @@
+# Runtime/output
+workspace/
+
+# Secrets
+config/openrouter.key
+config/youtube-oauth.json
+
+# OS
+.DS_Store
